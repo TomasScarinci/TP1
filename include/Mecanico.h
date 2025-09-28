@@ -6,14 +6,17 @@ class Mecanico
 {
     public:
         Mecanico();
+        Mecanico (int, int, float); //constructor parametrizado
         virtual ~Mecanico();
-        void Sueldo (int);
+        float calculoDeSueldo ();
 
     protected:
+        int costeDeHoras;
+        float sueldoBasico;
+        int cantidadDeHoras;
 
     private:
-        int costeDeHoras;
-        float importeBasico;
+
 };
 
 #endif // MECANICO_H

@@ -1,21 +1,24 @@
 #ifndef REPUESTOS_H
 #define REPUESTOS_H
+#include <list>
+#include <string>
 
+enum Pais {Nacional, limitrofes, America, Europa};
 
 class Repuestos
 {
     public:
         Repuestos();
+        Repuestos  (Pais, float); //constructor parametrizado
         virtual ~Repuestos();
-        void repuestos();
-        void recargo();
-
+        int totalDeReparaciones ();
+        float costoDeRepuestos ();
 
     protected:
 
     private:
-        int reparaciones;
-
+        float costoBasico;
+        Pais origen;
 };
 
 #endif // REPUESTOS_H

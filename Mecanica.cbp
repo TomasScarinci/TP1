@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Mecanica" />
+		<Option title="Taller Mecanico" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -35,10 +35,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Mecanico.h" />
+		<Unit filename="include/Reparaciones.h" />
 		<Unit filename="include/Repuestos.h" />
 		<Unit filename="include/Taller.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Mecanico.cpp" />
+		<Unit filename="src/Reparaciones.cpp" />
 		<Unit filename="src/Repuestos.cpp" />
 		<Unit filename="src/Taller.cpp" />
 		<Extensions>

@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1757966976 source:c:\users\alumno\downloads\mecanica\main.cpp
+	<iostream>
+
+1757966586 source:c:\users\alumno\downloads\mecanica\src\mecanico.cpp
+	"Mecanico.h"
+
+1757966586 c:\users\alumno\downloads\mecanica\include\mecanico.h
+
+1758567554 source:c:\users\alumno\downloads\mecanica\src\taller.cpp
+	"Taller.h"
+
+1758571468 c:\users\alumno\downloads\mecanica\include\taller.h
+
+1757966978 source:c:\users\alumno\downloads\mecanica\src\repuestos.cpp
+	"Repuestos.h"
+
+1758571264 c:\users\alumno\downloads\mecanica\include\repuestos.h
+	<Taller.h>
+
+1759099134 source:c:\users\escar\downloads\mecanica\main.cpp
+	<iostream>
+	"Taller.h"
+	"Mecanico.h"
+	"Repuestos.h"
+	"Reparaciones.h"
+
+1759094285 source:c:\users\escar\downloads\mecanica\src\mecanico.cpp
+	"Mecanico.h"
+
+1759099805 c:\users\escar\downloads\mecanica\include\mecanico.h
+
+1759094751 c:\users\escar\downloads\mecanica\include\taller.h
+	<string>
+	<list>
+	"Reparaciones.h"
+
+1759091573 source:c:\users\escar\downloads\mecanica\src\repuestos.cpp
+	"Repuestos.h"
+
+1759099805 c:\users\escar\downloads\mecanica\include\repuestos.h
+	<list>
+	<string>
+
+1759094908 source:c:\users\escar\downloads\mecanica\src\taller.cpp
+	"Taller.h"
+
+1759099079 source:c:\users\escar\downloads\mecanica\src\reparaciones.cpp
+	"Reparaciones.h"
+
+1759099079 c:\users\escar\downloads\mecanica\include\reparaciones.h
+	<list>
+	"Repuestos.h"
+	"Mecanico.h"
+

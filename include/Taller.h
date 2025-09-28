@@ -1,20 +1,21 @@
 #ifndef TALLER_H
 #define TALLER_H
-
+#include <string>
+#include <list>
+#include "Reparaciones.h"
 
 class Taller
 {
     public:
         Taller();
         virtual ~Taller();
-        float reparacion ();
-
+        void agregarReparacion (Reparaciones &);
+        float reparacionMasCara ();
 
     protected:
+        std::list <Reparaciones> misReparaciones;
 
     private:
-        int costodeHoras;
-        float comision = 30/100;
 };
 
 #endif // TALLER_H
